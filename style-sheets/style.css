@@ -171,7 +171,7 @@ Media Queries
 Mobaile Devices 
 ---------------------------*/
             
-            @media ( min-width:100px) and( max-width:688px) {
+            @media only sreen and ( min-width:100px) and( max-width:688px) {
                 .collections {
                     width: 100%;
                     margin: 3px 0 5px 0;
@@ -224,7 +224,7 @@ Mobaile Devices
 Tablet Devices
 --------------------- */
             
-            @media (min-width:650px)and ( max-width:1100px) {
+            @media only sreen and(min-width:650px)and ( max-width:1100px) {
                 .collections {
                     width: 100%;
                     margin: 3px 0 5px 0;
@@ -268,9 +268,5 @@ Tablet Devices
                 .img-info {
                     width: 80%;
                     margin: 0;
-                }
-                .hr-gap {
-                    width: auto;
-                    height: fit-content;
                 }
             }
